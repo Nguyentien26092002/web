@@ -1,0 +1,307 @@
+*
+{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+}
+ul{
+    list-style: none;
+}
+.button_add
+{
+    background-color: rgb(93, 3, 248);
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.button_add:hover
+{
+    opacity: 0.8;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+header
+{
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+table
+{
+    color: black;
+}
+.admin_content
+{
+    display: flex;
+    flex-direction: row;
+}
+.admin_content_left
+{
+    overflow-y: hidden;
+    margin: 20px;
+    border-radius:  30px 0 20px 20px;
+    background-color: rgba(6, 5, 5, 0.8);
+    color: aliceblue;
+    width: 20%;
+    height: 120vh;
+    padding: 60px 0 0 12px;
+}
+.admin_content_left h1{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+.admin_content_left> ul> li> a
+{
+font-weight: bold;
+color: rgb(226, 226, 227) 
+}
+.admin_content_left ul li a 
+{
+
+color: rgb(226, 226, 227) ;
+}
+.admin_content_left ul li
+{
+    padding:  8px 0;
+}
+.log-out
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.cate-left_li
+{
+    font-size: 20px;
+}
+.admin_content_left ul ul 
+{
+    margin-left: 20px;
+}
+.admin_content_right
+{
+    width: 80%;
+    padding: 30px 30px 0 12px;
+}
+.admin_content_right_cateroty_add input
+{
+height: 30px;
+width: 200px;
+padding-left: 12px;
+margin-top: 20px;
+}
+table
+{
+    text-align: center;
+    align-items: center;
+}
+.add_class label
+{
+    margin-bottom: 10px;
+}
+.add_class
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.admin_add 
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    background-color: transparent;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+.admin_add button:last-child
+{
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.admin_add button:last-child:hover{
+    color: rgb(12, 9, 9);
+    background-color: rgb(228, 205, 205);
+    border: none;
+}
+.add_left
+{
+    flex:1;
+}
+.admin_add form 
+{
+    width: 100%;
+    height: 100%;
+}
+.add_right
+{
+    flex: 1;
+}
+.add_right button
+{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-left: 40px;
+    border-radius: 5px;
+    color: black;
+}
+.add_right button:hover
+{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.add_top
+{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.admin_add form input
+{
+  margin-left: 10px;
+width: 60%;
+height: 40px;
+}
+.admin_content_right_cateroty_add button
+{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    transition: all 2s ease;
+}
+.admin_content_right_cateroty_add button:hover
+{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: red;
+}
+/*list*/
+.admin_content_right_cateroty_list table
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.admin_content_right_cateroty_list table tr th,td
+{
+    border: 1px solid black;
+
+}
+table
+{
+    border-collapse: collapse;
+}
+/**/
+.admin_content_right_product_add input,select
+{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 6px 0 12px;
+    padding-left: 12px;
+}
+.admin_content_right_product_add    textarea 
+{
+    display: block;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+.admin_content_right_product_add button
+{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: black;
+    border: none;   
+    color: white;
+    transition: all 2s ease;
+}
+.admin_content_right_product_add button:hover
+{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: red;
+}
+.admin_content_right_cateroty_list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin_content_right_cateroty_list th, .admin_content_right_cateroty_list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.admin_content_right_cateroty_list th {
+    background-color: #f2f2f2;
+}
+
+.admin_content_right_cateroty_list th:first-child, .admin_content_right_cateroty_list td:first-child {
+    width: 5%;
+}
+
+.admin_content_right_cateroty_list th:nth-child(2), .admin_content_right_cateroty_list td:nth-child(2) {
+    width: 20%;
+}
+
+.admin_content_right_cateroty_list th:nth-child(3), .admin_content_right_cateroty_list td:nth-child(3) {
+    width: 15%;
+}
+
+.admin_content_right_cateroty_list th:nth-child(4), .admin_content_right_cateroty_list td:nth-child(4) {
+    width: 20%;
+}
+
+.admin_content_right_cateroty_list th:nth-child(5), .admin_content_right_cateroty_list td:nth-child(5) {
+    width: 20%;
+}
+
+.admin_content_right_cateroty_list th:nth-child(6), .admin_content_right_cateroty_list td:nth-child(6) {
+    width: 20%;
+}
+
+.admin_content_right_cateroty_list td a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.admin_content_right_cateroty_list td a:hover {
+    text-decoration: underline;
+}
